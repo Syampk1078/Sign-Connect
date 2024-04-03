@@ -1,5 +1,5 @@
 # 🌟 Sign Connect Application
-🔭 I’m currently working on <b>Enhancing Accessibility: Integrating Sign Language Keyboard and Smart Technology for Seamless Communication Among Deaf Users</b>Are you Interested to Know this Project? <a href="https://github.com/Syampk1078/Sign-Connect/files/14854980/CameraReadyPaper.CRP._656.1.pdf">Learn more</a>
+🔭 I’m currently working on <b>Enhancing Accessibility: Integrating Sign Language Keyboard and Smart Technology for Seamless Communication Among Deaf Users</b> <a href="https://github.com/Syampk1078/Sign-Connect/files/14854980/CameraReadyPaper.CRP._656.1.pdf">Learn more</a>
 <h3>Introduction</h3>
 <h4>Introduction to the project</h4>
 <ul>
