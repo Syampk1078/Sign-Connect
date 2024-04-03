@@ -1,0 +1,6 @@
+<!-- res/drawable/container_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/container_background_color" /> <!-- Background color for LinearLayout -->
+    <corners android:radius="8dp" /> <!-- Rounded corners for LinearLayout -->
+</shape>

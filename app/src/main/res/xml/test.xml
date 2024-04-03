@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="9.6%p"
+    android:horizontalGap="4px"
+    android:verticalGap="4px"
+    android:keyHeight="60dp"
+    android:keyTextColor="@color/black">
+
+    <!-- Define your numeric and special characters here -->
+    <!-- For example, you can have a row for 1, 2, 3, etc. -->
+
+    <Row>
+
+            <TextView
+                android:id="@+id/tvText"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Your Text"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/videoContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvText"
+                android:layout_above="@+id/btnSpeak"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!-- Your video views or layout for playing videos go here -->
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnSpeak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/speak" />
+
+    </Row>
+
+    <Row>
+        <!-- Define other rows and keys here -->
+    </Row>
+
+</Keyboard>

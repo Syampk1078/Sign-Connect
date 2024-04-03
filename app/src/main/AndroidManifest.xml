@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImagePro">
+
+        <activity android:name=".HandDetection"></activity>
+        <activity android:name=".CameraActivity"></activity>
+
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Voice_Sign"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.hurt.ACTION_START_VOICE_SIGN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Keyboard"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sign_Guide"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlayVideo"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contact"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HandTalk"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".SignKeyboard"
+            android:exported="true"
+            android:label="Sign Keyboard"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

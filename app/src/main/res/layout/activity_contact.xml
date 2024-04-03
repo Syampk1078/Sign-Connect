@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource"
+    tools:context=".Contact">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_view"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mr. Mohan.M"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="36sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="145dp"
+        />
+    <TextView
+        android:id="@+id/textVie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="50sp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mohan_sir"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="285dp"
+        />
+    <ImageView
+        android:id="@+id/ph"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/phone"
+        android:layout_below="@+id/textVie"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        />
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone no"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_below="@+id/textVie"
+        android:layout_toRightOf="@+id/ph"
+        android:layout_marginTop="0px"
+
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/numb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8985914034"
+        android:textColor="@color/cardview_dark_background"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_below="@+id/num"
+        android:layout_toRightOf="@+id/ph"
+        android:layout_marginTop="0px"
+
+        android:layout_marginLeft="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/gmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/mail"
+        android:layout_below="@+id/ph"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="16dp"
+        />
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_below="@+id/numb"
+        android:layout_toRightOf="@+id/ph"
+        android:layout_marginTop="20px"
+
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="syamprasad1078@gmail.com"
+        android:textColor="@color/cardview_dark_background"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_below="@+id/mail"
+        android:layout_toRightOf="@+id/gmail"
+        android:layout_marginTop="0px"
+
+        android:layout_marginLeft="10dp"
+        />
+
+
+
+
+</RelativeLayout>

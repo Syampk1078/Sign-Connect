@@ -1,0 +1,76 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="9.6%p"
+    android:horizontalGap="4px"
+    android:verticalGap="4px"
+    android:keyHeight="60dp"
+    android:keyTextColor="@color/black">
+
+    <!-- Define your numeric and special characters here -->
+    <!-- For example, you can have a row for 1, 2, 3, etc. -->
+
+    <Row>
+        <Key
+            android:keyIcon="@drawable/one"
+            android:keyEdgeFlags="left"
+            android:codes="49"
+            />
+        <Key android:keyIcon="@drawable/two"
+            android:codes="50"/>
+        <Key android:keyIcon="@drawable/three"
+            android:codes="51"/>
+        <Key android:keyIcon="@drawable/four"
+            android:codes="52"/>
+        <Key android:keyIcon="@drawable/five"
+            android:codes="53"/>
+        <Key android:keyIcon="@drawable/six"
+            android:codes="54"/>
+        <Key android:keyIcon="@drawable/seven"
+            android:codes="55"/>
+        <Key android:keyIcon="@drawable/eight"
+            android:codes="56"/>
+        <Key android:keyIcon="@drawable/nine"
+            android:codes="57"/>
+        <Key android:keyIcon="@drawable/zero"
+            android:keyEdgeFlags="right"
+            android:codes="48"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="\u0040"
+            android:keyEdgeFlags="left"
+            android:codes="64"/>
+        <Key android:keyLabel="#" android:codes="35"/>
+        <Key android:keyLabel="\u20B9" android:codes="8377"/>
+        <Key android:keyLabel="_" android:codes="95"/>
+        <Key android:keyLabel="\u0026" android:codes="38"/>
+        <Key android:keyLabel="-" android:codes="45"/>
+        <Key android:keyLabel="+" android:codes="43"/>
+        <Key android:keyLabel="(" android:codes="40"/>
+        <Key android:keyLabel=")" android:codes="41"/>
+        <Key android:keyLabel="/" android:keyEdgeFlags="right" android:codes="47"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="=\u002F&lt;" android:keyEdgeFlags="left" android:codes="-58"/>
+        <Key android:keyLabel="*" android:codes="42"/>
+        <Key android:keyLabel="\u0022" android:codes="34"/>
+        <Key android:keyLabel="'" android:codes="39"/>
+        <Key android:keyLabel=":" android:codes="58"/>
+        <Key android:keyLabel=";" android:codes="59"/>
+        <Key android:keyLabel="!" android:codes="33"/>
+        <Key android:keyLabel="\u003F" android:codes="63"/>
+        <Key android:keyIcon="@drawable/delete" android:keyWidth="20%p" android:keyEdgeFlags="right" android:isRepeatable="true" android:codes="-5"/>
+    </Row>
+
+
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyIcon="@drawable/wave" android:keyWidth="20%p" android:keyEdgeFlags="left" android:codes="-123"/>
+        <Key android:keyLabel="," android:keyWidth="10%p"  android:codes="44"/>
+        <Key android:keyIcon="@drawable/space" android:keyWidth="40%p" android:isRepeatable="true" android:codes="32"/>
+        <Key android:keyLabel="." android:codes="46"/>
+        <Key android:keyIcon="@drawable/enter" android:keyWidth="20%p" android:keyEdgeFlags="right" android:codes="-4"/>
+
+    </Row>
+
+</Keyboard>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="4px"
+    android:verticalGap="4px"
+
+    android:keyHeight="60dp"
+    android:id="@+id/key"
+    android:keyTextColor="@color/black"
+    >
+
+
+
+    <Row>
+        <Key android:keyIcon="@drawable/q" android:keyEdgeFlags="left" android:codes="113"/>
+        <Key android:keyIcon="@drawable/w" android:codes="119"/>
+        <Key android:keyIcon="@drawable/e" android:codes="101"/>
+        <Key android:keyIcon="@drawable/r" android:codes="114"/>
+        <Key android:keyIcon="@drawable/t" android:codes="116"/>
+        <Key android:keyIcon="@drawable/y" android:codes="121"/>
+        <Key android:keyIcon="@drawable/u" android:codes="117"/>
+        <Key android:keyIcon="@drawable/i" android:codes="105"/>
+        <Key android:keyIcon="@drawable/o" android:codes="111"/>
+        <Key android:keyIcon="@drawable/p" android:keyEdgeFlags="right" android:codes="112"/>
+    </Row>
+
+    <Row android:keyWidth="20%p">
+        <Key android:keyIcon="@drawable/a" android:keyEdgeFlags="left" android:codes="97"/>
+        <Key android:keyIcon="@drawable/s" android:codes="115"/>
+        <Key android:keyIcon="@drawable/d" android:codes="100"/>
+        <Key android:keyIcon="@drawable/f" android:codes="102"/>
+        <Key android:keyIcon="@drawable/g" android:codes="103"/>
+        <Key android:keyIcon="@drawable/h" android:codes="104"/>
+        <Key android:keyIcon="@drawable/j" android:codes="106"/>
+        <Key android:keyIcon="@drawable/k" android:codes="107"/>
+        <Key android:keyIcon="@drawable/l" android:keyEdgeFlags="right" android:codes="108"/>
+    </Row>
+
+    <Row>
+        <Key android:keyIcon="@drawable/shift" android:keyEdgeFlags="left" android:codes="-1"/>
+        <Key android:keyIcon="@drawable/z" android:codes="122"/>
+        <Key android:keyIcon="@drawable/x" android:codes="120"/>
+        <Key android:keyIcon="@drawable/c" android:codes="99"/>
+        <Key android:keyIcon="@drawable/v" android:codes="118"/>
+        <Key android:keyIcon="@drawable/b" android:codes="98"/>
+        <Key android:keyIcon="@drawable/n" android:codes="110"/>
+        <Key android:keyIcon="@drawable/m" android:codes="109"/>
+
+        <Key android:keyIcon="@drawable/delete" android:keyWidth="20%p" android:keyEdgeFlags="right" android:isRepeatable="true" android:codes="-5"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel="\?123" android:keyWidth="20%p" android:keyEdgeFlags="left" android:codes="-123"/>
+        <Key android:keyLabel="," android:keyWidth="10%p"  android:codes="44"/>
+        <Key android:keyIcon="@drawable/space" android:keyWidth="40%p" android:isRepeatable="true" android:codes="32"/>
+        <Key android:keyLabel="." android:codes="46"/>
+        <Key android:keyIcon="@drawable/enter" android:keyWidth="20%p" android:keyEdgeFlags="right" android:codes="-4"/>
+
+    </Row>
+
+
+</Keyboard>

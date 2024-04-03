@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true" >
+
+
+    <!-- The existing KeyboardView -->
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+    android:keyTextColor="@color/white"
+    android:keyBackground="@drawable/key_background"
+    android:keyPreviewLayout="@layout/key_preview"
+    android:background="@color/white"/>
+</RelativeLayout>

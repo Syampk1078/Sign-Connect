@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+
+
+        <color name="primaryColor">#FF5722</color> <!-- Example color, replace with your primary color -->
+        <color name="lightGray">#E0E0E0</color> <!-- Example color, replace with your light gray color -->
+        <color name="light_gray">#F5F5F5</color>
+
+        <color name="background_color">#F5F5F5</color> <!-- Light gray background color -->
+
+
+        <color name="edittext_border_color">#CCCCCC</color> <!-- Define a light gray color for EditText border -->
+        <color name="button_default_color">#007ACC</color> <!-- Define a default color for Button -->
+        <color name="button_pressed_color">#005CA9</color> <!-- Define a color when Button is pressed -->
+        <color name="container_background_color">#E0E0E0</color> <!-- Define a background color for LinearLayout -->
+
+
+        <color name="dark_background_color">#111111</color> <!-- Darkest background color -->
+
+        <color name="colorAccentDark">#FF4081</color>
+
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+
+        <color name="keyboard_background_color">#34495e</color>
+        <color name="keyboard_divider">#2c3e50</color>
+        <color name="keyboard_pressed">#95a5a6</color>
+
+        <color name="colorPost">#0091EA</color>
+
+        <color name="colorAccentTrans">#BEE25E14</color>
+
+        <color name="maincolor">#E25E14</color>
+
+        <color name="color1">#feeb3c</color>
+
+        <color name="semitranswhitecolor">#00FFFFFF</color>
+        <color name="colorwhite_50">#CCffffff</color>
+        <color name="colorwhite_10">#1Affffff</color>
+        <color name="colorwhite_30">#4Dffffff</color>
+
+        <color name="graycolor">#D3D3D3</color>
+        <color name="graycolor2">#C5C4C4</color>
+        <color name="gainsboro">#DCDCDC</color>
+        <color name="lightgraycolor">#f2f2f2</color>
+        <color name="darkgray">#93959A</color>
+        <color name="darkgraytrans">#9493959A</color>
+        <color name="darkgraytransPost">#9BC5C6C9</color>
+        <color name="dimgray">#696969</color>
+        <color name="lightblack">#5d5d5d</color>
+
+        <color name="delete_message_bg">#f2f2f2</color>
+        <color name="delete_message_text">#b8b8b8</color>
+
+        <color name="transparent">#00ffffff</color>
+        <color name="fifty_transparent_black">#802F2F2F</color>
+
+        <color name="redcolor">#ff0008</color>
+        <color name="semitransredcolor">#93FF0008</color>
+        <color name="semitransredcolornew">#918E8E</color>
+
+        <color name="color_gray_alpha">#65b7b7b7</color>
+        <color name="app_blue">#0e1f2f</color>
+        <color name="text_color">#000000</color>
+        <color name="seekbar_color">#3be3e3</color>
+        <color name="line_color">#FF15FF00</color>
+        <color name="shadow_color">#00000000</color>
+
+        <color name="app_color">#c52127</color>
+
+
+
+
+
+
+</resources>

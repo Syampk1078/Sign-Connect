@@ -1,0 +1,46 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/dark_background_color"
+    tools:context=".HandTalk">
+
+<EditText
+android:id="@+id/inputText"
+android:layout_width="match_parent"
+android:layout_height="40dp"
+android:hint="Enter text"
+    android:textColor="@color/white"
+android:background="@drawable/edittext_background_dark"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:textSize="16sp"
+    android:layout_marginBottom="16dp" />
+
+<Button
+android:id="@+id/processButton"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Get Sign"
+android:textSize="18sp"
+android:textColor="@android:color/white"
+android:background="@drawable/button_background_dark"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp" />
+
+<LinearLayout
+android:id="@+id/animationContainer"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="16dp"
+android:background="@drawable/container_background_dark"> <!-- Change to your desired dark background color -->
+<!-- Videos will be dynamically added here -->
+</LinearLayout>
+
+    </LinearLayout>

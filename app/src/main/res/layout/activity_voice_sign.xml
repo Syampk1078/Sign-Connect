@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background_color"
+    android:gravity="center">
+
+<TextView
+android:id="@+id/tvText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="20dp"
+android:text="Click the icon below"
+android:textSize="18sp"
+android:textColor="@android:color/white" />
+
+<LinearLayout
+android:id="@+id/videoContainer"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/tvText"
+android:layout_above="@id/btnSpeak"
+android:gravity="center"
+android:layout_marginTop="40dp"
+android:layout_marginBottom="40dp"
+android:padding="16dp"
+android:background="@drawable/container_background_dark"
+    android:orientation="vertical">
+
+    <!-- Your video views or layout for playing videos go here -->
+
+    </LinearLayout>
+
+<ImageButton
+android:id="@+id/btnSpeak"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+android:layout_alignParentBottom="true"
+android:layout_marginBottom="20dp"
+android:background="@drawable/speak" /> <!-- Set your custom drawable for the button with darker theme -->
+
+    </RelativeLayout>

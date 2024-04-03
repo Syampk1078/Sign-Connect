@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource"
+    tools:context=".Keyboard"
+    android:background="@color/black"
+    >
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_view"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+
+        android:layout_marginTop="135dp"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#333333"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="12dp"
+
+            android:layout_column="1"
+            app:cardElevation="12dp"
+
+            android:id="@+id/vid"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                android:id="@+id/vidLayout"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/text3"
+                    android:layout_height="65dp"
+                    android:text="To start writing, activate the keyboard first"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+
+                    />
+                <Button
+                    android:id="@+id/openKeyboardSettingsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center_horizontal"
+                android:text="Activate Sign Keyboard"
+                    android:textSize="20dp"
+                />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Connect"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bg_logo"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="165dp"
+        />
+
+</RelativeLayout>

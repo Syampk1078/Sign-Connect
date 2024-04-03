@@ -1,0 +1,17 @@
+<!-- res/drawable/button_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_pressed_color" /> <!-- Background color when Button is pressed -->
+            <corners android:radius="8dp" /> <!-- Rounded corners for Button -->
+        </shape>
+    </item>
+    <!-- Default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_default_color" /> <!-- Default background color for Button -->
+            <corners android:radius="8dp" /> <!-- Rounded corners for Button -->
+        </shape>
+    </item>
+</selector>
